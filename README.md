@@ -7,7 +7,7 @@ dotfile系をまとめたリポジトリである。
 2. 各設定ファイルをシンボリックリンクで適切なディレクトリにリンクさせる。
 
 ## 例
-`ln -s  dotfiles/.gitconfig .gitconfig`
+`$ ln -s  dotfiles/.gitconfig .gitconfig`
 
 # gitconfigについて
 gitconfigには「[git-browse-remote](https://github.com/motemen/git-browse-remote)」の設定が含まれています。  
