@@ -1,0 +1,44 @@
+[user]
+	name = Yuji Funakoshi
+	email = funakoshi.yuji@gmail.com
+[core]
+	autocrlf = false
+	pager = less -r
+	editor = vi
+[color]
+	ui = auto
+[alias]
+	alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\\t => \\2/' | sort
+	ad = add
+	b = browse-remote
+	ci = commit
+	cia = commit -a
+	cl = clone
+	st = status
+	br = branch
+	co = checkout
+	d = diff -C
+	df = diff
+	dc = diff --cached
+	l = log
+	ps = push
+	pl = pull
+	pr = browse-remote --pr
+	cancel = reset --soft HEAD^
+	today = log --oneline --since='12 hour ago'
+[web]
+	browser = google-chrome
+[push]
+	default = simple
+[branch]
+	autosetuprebase = always
+[merge]
+	ff = false
+[pull]
+	rebase = true
+[browse-remote "github.com"]
+	top = https://{host}/{path}
+	ref = https://{host}/{path}/tree/{short_ref}
+	rev = https://{host}/{path}/commit/{commit}
+	pr = https://{host}/{path}/compare
+	file = "https://{host}/{path}/{file.directory? and :tree or :blob}/{short_rev}/{file}{lines && \"#L%s\" % lines.join(\"-\")}"
