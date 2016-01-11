@@ -50,8 +50,8 @@ set wrapscan
 " 文字コードをUTF-8に
 set encoding=utf-8
 " ファイルのエンコーディングがSJIS系で文字化けしないようにする
-set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
-set fileformats=unix,dos,mac
+"set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+"set fileformats=unix,dos,mac
 
 "----------------------------------------
 " Other
