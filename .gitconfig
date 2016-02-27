@@ -5,6 +5,7 @@
 	autocrlf = false
 	pager = less -r
 	editor = vi
+  excludesfile = /home/user/.gitignore
 [color]
 	ui = auto
 [alias]

@@ -1,0 +1,8 @@
+.tags*
+.metadata/
+.settings/
+*.tmp
+*.bak
+*.swp
+
+
