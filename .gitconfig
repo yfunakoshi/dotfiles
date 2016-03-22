@@ -24,6 +24,8 @@
 	l = log
 	ps = push
 	pl = pull
+  wip = commit -m 'wip'
+  drag = pull --rebase
 	pr = browse-remote --pr
 	cancel = reset --soft HEAD^
 	today = log --oneline --since='12 hour ago'
