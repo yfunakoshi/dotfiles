@@ -6,4 +6,5 @@ tags
 *.bak
 *.swp
 
-
+.directory
+/.idea/

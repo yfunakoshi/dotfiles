@@ -4,7 +4,7 @@
 [core]
 	autocrlf = false
 	pager = less -r
-	editor = vi
+	editor = vim
   excludesfile = /home/user/.gitignore
 [color]
 	ui = auto
